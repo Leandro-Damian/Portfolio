@@ -391,40 +391,7 @@ img{
 }
 
 /*==================== SKILLS ====================*/
-.services-container{
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.75rem;
-}
 
-.services-card{
-  background: var(--container-color);
-  padding: 2rem;
-  border-radius: 1rem;
-  transition: background 0.3s;
-}
-
-.services-card:hover{
-  background: var(--second-gradient);
-}
-
-.services-no{
-  color: var(--title-color);
-  font-size: var(--h1-font-size);
-  font-weight: var(--font-bold);
-}
-
-.services-title{
-  font-size: var(--h3-font-size);
-  margin-block: 1.25rem 0.75rem;
-}
-
-.services-description{
-  font-size: var(--large-font-size);
-}
-
-.services-card:hover :is(.services-no, .services-title, .services-description){
-  color: var(--white-color);
-}
 
 /*==================== SKILLS ====================*/
 .skills-container{
@@ -759,7 +726,6 @@ img{
     font-size: 6.5rem;
   }
 
-  .services-container,
   .work-container{
     gap: 1.5rem;
   }
@@ -860,7 +826,6 @@ img{
     row-gap: 2rem;
   }
 
-  .services-container,
   .work-container{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -916,7 +881,6 @@ img{
     margin-bottom: 3.5rem;
   }
 
-  .services-container,
   .work-container{
     grid-template-columns: 405px;
     justify-content: center;
@@ -962,15 +926,9 @@ img{
     padding-inline: 1rem;
   }
 
-  .services-container,
   .work-container{
     grid-template-columns: 1fr;
-  }
-
-  .services-card,
-  .work-card{
-    padding: 1.75rem;
-  }
+  }  
 
   .skills-items{
     grid-template-columns: repeat(2, 1fr);

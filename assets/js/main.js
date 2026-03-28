@@ -190,6 +190,6 @@ const sr = ScrollReveal({
 sr.reveal(`.home-data`);
 sr.reveal(`.home-img-wrapper`, { delay: 500 });
 sr.reveal(`.home-social`, { delay: 600 });
-sr.reveal(`.services-card, .mix`, { interval: 100 });
+sr.reveal(`.mix`, { interval: 100 });
 sr.reveal(`.skills-developer, .resume-left, .contact-group`, { origin: 'left' });
 sr.reveal(`.skills-designer, .resume-right, .contact-form`, { origin: 'right' });
