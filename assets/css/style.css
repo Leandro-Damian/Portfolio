@@ -536,14 +536,19 @@ img{
 }
 
 .work-container{
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.75rem;
+  align-items: stretch;
 }
 
 .work-card{
   background-color: var(--container-color);
   padding: 2rem;
   border-radius: 1rem;
+  display: flex;             
+  flex-direction: column;    
+  height: 100%;
 }
 
 .work-img{
@@ -567,6 +572,8 @@ img{
 
 .work-description{
   min-height: 125px;
+  flex-grow: 1;              
+  margin-bottom: 1.5rem;
 }
 
 .work-link{
